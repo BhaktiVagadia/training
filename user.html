@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <div class="flexcontainer">
+
+        <div>
+            <p> Hello ,[name]</p>
+
+            <a href="dashbord.html"> Dashbord </a><br>
+            <a href="users.html"> Users</a><br>
+            <a href="loginsession.html"> Login Session</a><br>
+            <a href="logout.html"> Logout </a>
+    </div>
+
+    <div>
+       <b>Add User </b> 
+        <br><br>
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="date" id="birthDate" placeholder="Birthdate">
+        <br>
+        <input type="button" id="addUser" value="Add User" onclick="addUser()">
+        <br><br>
+        <b>User List</b>
+        <br><br>
+        <table id="userList" border="1px solid">
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Birthdate</th>
+            <th>Age</th>
+            <th colspan="2">Action</th>
+        </table>
+    </div>
+    <script src="user.js"></script>
+</html>

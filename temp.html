@@ -1,0 +1,15 @@
+<html>
+    <button id="1">Button 1</button> 
+        <button id="2">Button 2</button> 
+        <button id="3">Button 3</button> 
+    <script>
+         document.getElementById('1').onclick = GFG_click; 
+            document.getElementById('2').onclick = GFG_click; 
+            document.getElementById('3').onclick = GFG_click; 
+              
+            function GFG_click(clicked) { 
+                alert("Button clicked, id = " 
+                    + this.id); 
+            }          
+    </script>
+</html>

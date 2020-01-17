@@ -1,0 +1,42 @@
+.flexcontainer{
+    display: flex;
+}
+.div1
+{
+    background-color: sandybrown;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.div2
+{
+    background-color: steelblue;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    margin-left:100px ;
+    text-align: center;
+    justify-content: center;
+}
+
+.div3
+{
+    background-color:lightcoral;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    margin-left:100px ;
+    text-align: center;
+    justify-content: center;
+}
+
+.divLeft
+{
+    background-color: orangered;
+    width: 300px;
+    height: 500px;
+}
